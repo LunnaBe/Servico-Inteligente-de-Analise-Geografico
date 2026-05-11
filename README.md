@@ -28,3 +28,10 @@ Um Serviço de Análise de Dados Geográficos especializado no processamento de 
 **[RNF-001] Persistência:** Os dados analíticos processados devem ser armazenados no Firebase. <br>
 **[RNF-002] Performance:** O cálculo de distância e agrupamento deve ser otimizado para respostas em tempo real. <br>
 **[RNF-003] Escalabilidade:** A arquitetura de microserviço deve suportar o aumento de volume de dados geográficos. <br>
+4 - Dificuldades encontradas na integração com Firebase
+### 4.1 - Pacotes do Firebase não instalados
+Após adicionar os arquivos de integração ao projeto WPF, a compilação falhou com erros do tipo namespace 'FirebaseAdmin' não pode ser encontrado. O motivo foi que os pacotes NuGet do Firebase ainda não haviam sido instalados no projeto.
+Solução: executar os comandos abaixo no terminal dentro da pasta do projeto:
+bashcd ServicoInteligenteGeografico
+dotnet add package FirebaseAdmin --version 3.1.0
+dotnet add package FirebaseDatabase.net --version 4.2.0
