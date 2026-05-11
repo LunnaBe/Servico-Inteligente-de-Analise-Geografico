@@ -30,7 +30,7 @@ Um Serviço de Análise de Dados Geográficos especializado no processamento de 
 **[RNF-003] Escalabilidade:** A arquitetura de microserviço deve suportar o aumento de volume de dados geográficos. <br>
 
 
-### 4 - Dificuldades encontradas na integração com Firebase
+### 4 - Dificuldades encontradas no decorrer do projeto
 
 
 
@@ -46,3 +46,7 @@ dotnet add package FirebaseDatabase.net --version 4.2.0
 **4.2 - Terminal apontando para a pasta errada**
 Ao tentar instalar os pacotes pelo terminal do Visual Studio, o comando retornou o erro Não foi possível encontrar nenhum projeto. O terminal estava na pasta raiz do repositório, e não dentro da pasta do projeto .csproj.
 Solução: navegar para a pasta correta com cd ServicoInteligenteGeografico antes de rodar os comandos.
+
+
+
+
