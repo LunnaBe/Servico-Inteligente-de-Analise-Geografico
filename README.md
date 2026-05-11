@@ -30,7 +30,7 @@ Um Serviço de Análise de Dados Geográficos especializado no processamento de 
 **[RNF-003] Escalabilidade:** A arquitetura de microserviço deve suportar o aumento de volume de dados geográficos. <br>
 
 
-### 4 - Dificuldades encontradas no decorrer do projeto
+## 4 - Dificuldades encontradas no decorrer do projeto
 
 
 
